@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // Your list of countries
-        val country = arrayOf(
+        val country = listOf(
             "Philippines", "Canada", "United States", "Sweden", "Germany", "Italy",
             "Australia", "Finland", "Denmark", "Netherlands", "Spain", "Belgium",
             "Ireland", "Japan", "China", "South Korea", "India", "Brazil", "Russia", "Thailand"
