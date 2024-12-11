@@ -55,7 +55,7 @@
         android:elevation="1dp"
         android:fontFamily="@font/playfair_light"
         android:text="Give glimpse of 20 random countries and find your next adventure!"
-        android:textColor="#BFFFFFFF"
+        android:textColor="#E6FFFFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
