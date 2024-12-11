@@ -1,6 +1,7 @@
 package com.example.activity_1
 
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.activity_1.databinding.ActivityMainBinding
@@ -31,8 +32,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Access the ListView directly using binding
+        val btnExit = findViewById<ImageButton>(R.id.btnExit)
         val listView: ListView = binding.listView  // Access ListView via binding
         val adapter = listadapter(this, adapteroflist)  // Set custom adapter
         listView.adapter = adapter  // Set the adapter to the ListView
+
+        btnExit.setOnClickListener{
+            finish()
+        }
     }
 }
